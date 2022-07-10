@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+.wrapper {
+  padding: 5px;
+  overflow: hidden;
+  max-height: 100%;
+}
 @media (max-width: 500px) {
   main {
     display: flex;
@@ -10,33 +14,37 @@
     line-height: 25px;
     border-bottom: 1px solid white;
     padding-bottom: 5px;
+    font-size: 14px;
   }
   .label-score {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
     line-height: 25px;
+    font-size: 14px;
   }
   .label-highscore {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
     line-height: 25px;
+    font-size: 14px;
   }
   .number-input {
     transform: translate(0px, -16px);
     height: 100px;
   }
   .check {
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
     background-color: yellow;
   }
   .between {
-    padding: 10px 0px 0px 0px;
+    transform: translate(20px, -10px);
+  }
+  .again {
+    transform: translate(-20px, -10px);
   }
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
